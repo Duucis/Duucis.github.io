@@ -1,107 +1,12 @@
-a:link,a:visited {
-background-color: #6B8E23;
-color: black;
-padding: 15px 25px;
-text-align: center;
-text-decoration: none;
-display: inline-block;
+body {
+	font-family: 'Open Sans', sans-serif;
 }
 
-a:hover, a: active {
-background-color:grey;
-}
-
-#header {
-background-color: green;
-color: white;
-text-align: center;
-padding: 50px;
-}
-
-#nav {
-	line-height: 20px;
-	background-color: grey;
+header {
 	height: 50px;
-	width: 50px;
-	float: left;
-	padding: 10px;
-}
-
-#footer {
-	background-color: orange;
-	color: grey;
-	text-align: center;
-	padding: 10px;
-}
-
-ul {
-	list-style-type: none;
-	margin: 10px;
-	padding: 10px;
-	overflow: hidden;
-	background-color: white;
-	position: fixed;
-	top: 10px;
-	width: 100%;
-}
-
-li {
-	float: left;
-}
-
-li a {
-	display: block;
-	color: white;
-	text-align: center;
-	padding: 15px 20px;
-	text-decoration: none;
-}
-
-li a: hover: not(.active) {
-    background-color: #88ebff;
-}
-
-.active {
-    background-color: #88ebff;
-}
-
-a:link, a:visited {
-    background-color: #f44336;
-    color: white;
-    padding: 20px 25px;
-    text-align: center;
-    text-decoration: none;
-    display: inline-block;
-}
-
-a:hover, a:active {
-    background-color: violet;`
-}
-
-.form{
-	position: relative;
-	left: 100px;
-	width: 200px;
-	height: 30px;
-	font-size: 150%;
-	background-color: rgba(0,0,0,0.5);
-	color: white;
-}
-
-#form1{
-	position: relative;
-	left: 70px;
-	padding: 5px;
-	background-color: rgba(0,0,0,0.5);
-	color: white;
-}
-
-#EU country {
-	position: relative;
-	top: 10px;
-	left: 500px;
-	width: 90px;
-	height: 20px;
-	color: orange;
-	text-align: black;
+	width: calc(100% - 80px);
+	padding: 0 40px;
+	background: #f5f5f5;
+	display: flex;
+	align-items: center;
 }
